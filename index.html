@@ -411,8 +411,6 @@ Error message and password prompt
 
 <li>Tiddler como pestaña</li>
 
-<li>Tiddler como pestaña-OLD</li>
-
 <li>Wiki</li>
 
 </ul>
@@ -12759,7 +12757,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200729220959815" list="[[Tiddler como pestaña]] [[Tiddler como pestaña-OLD]]" modified="20200729221022059" title="$:/StoryList">
+<div created="20200729220959815" list="[[Tiddler como pestaña]]" modified="20200729221022059" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -13885,12 +13883,17 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
     }
 }</pre>
 </div>
-<div created="20200729221045049" modified="20200729221149279" tags="Wiki TiddlyWiki" title="Tiddler como pestaña" type="text/x-markdown">
+<div created="20200729221045049" modified="20200729221315405" tags="Wiki TiddlyWiki" title="Tiddler como pestaña" type="text/x-markdown">
 <pre>Para establecer como pestaña un Tiddler es necesario colocar como tag el siguiente codigo:
 
 ```
 $:/tags/Sidebar
 ```
+
+&gt; Prueba de quote
+
+Una prueba con **negrita** y __subrayado?__.
+
 
 ## Titulo?
 
@@ -13912,37 +13915,6 @@ fn main() {
     };
 }
 ```</pre>
-</div>
-<div created="20200729215105673" modified="20200729221043713" tags="Wiki TiddlyWiki" title="Tiddler como pestaña-OLD">
-<pre>Para establecer como pestaña un Tiddler es necesario colocar como tag el siguiente codigo:
-
-```
-$:/tags/Sidebar
-```
-
-```rust
-enum Version {
- semver(u8, u8, u8),
- otrher(u8, u8),
-}
-
-fn main() {
-    let myver: Version = Version::semver(1,0,1);
-    let algo = match myver {
-        Version::semver(a, b, c) =&gt; {
-            println!(&quot;Su version es {}.{}.{}&quot;, a, b, c);
-        },
-        _ =&gt; panic!(&quot;No tiene version!&quot;);
-    };
-}
-```
-
-```javascript
-function asd() {
-    console.log(&quot;a ver si a este lo resalta?&quot;);
-}
-```
-</pre>
 </div>
 <div created="20200729214452545" list-before="$:/core/ui/SideBar/Open" modified="20200729215324612" tags="$:/tags/SideBar" title="Wiki">
 <pre>&lt;&lt;toc-selective-expandable 'Wiki' sort[title]&gt;&gt;</pre>
