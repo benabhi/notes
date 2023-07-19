@@ -67,5 +67,5 @@ Otros programas que utilizo que no se pueden instalar directamente con apt o que
 
 * [Glow](/home/benabhi/Documentos/Notes/Glow.md)
 * [Broot](/home/benabhi/Documentos/Notes/Broot.md)
-* [[3|Zellij]]
+* [[Zellij]]
 
