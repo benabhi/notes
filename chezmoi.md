@@ -24,10 +24,11 @@ chezmoi init --apply git@github.com:$GITHUB_USERNAME/dotfiles.git
 
 ### Instalar, inicializar y clonar el repo al mismo tiempo
 
+> **Nota**: Asegurarse de tener seteada la variable path.
+
 ```shell
 sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply $GITHUB_USERNAME
 ```
-
 
 ### Ir a la carpeta de chezmoi
 
