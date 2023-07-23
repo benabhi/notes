@@ -22,6 +22,13 @@ A continuacion una lista de comandos utiles para chezmoi.
 chezmoi init --apply git@github.com:$GITHUB_USERNAME/dotfiles.git
 ```
 
+### Instalar, inicializar y clonar el repo al mismo tiempo
+
+```shell
+sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply $GITHUB_USERNAME
+```
+
+
 ### Ir a la carpeta de chezmoi
 
 ```shell
