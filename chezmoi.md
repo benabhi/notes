@@ -35,3 +35,21 @@ sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply $GITHUB_USERNAME
 ```shell
 chezmoi cd
 ```
+
+## Como guardar cambios?
+
+Se edita un dotfile, luego ejecutamos el siguiente comando:
+
+```shell
+chezmoi re-add
+```
+
+Nos vamos a la carpeta donde se guardan las dotfiles en chezmoi.
+
+> **Nota**: Abre una nueva shell, ejecutar `exit` al finalizar.
+
+```shell
+chezmoi cd
+```  
+
+A partir de aca podemos ejecutar los comandos clasicos de git para guardar los cambios del repositorio y hacer un push.
