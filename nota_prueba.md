@@ -1,0 +1,1 @@
+![Captura de pantalla 2025-09-29 180748.png](Captura de pantalla 2025-09-29 180748.png)
